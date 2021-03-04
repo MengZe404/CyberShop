@@ -1,10 +1,19 @@
-* {
+/* 
+
+This file defines properties for common elements and variables.
+
+Made by MengZe
+
+*/
+
+* { 
     font-size: 16px;
     margin: 0;
     padding: 0;
     color: black;
 }
 
+/* root variables */
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -29,6 +38,7 @@
     --dark: #343a40;
 }
 
+/* headings */
 h1 {
     font-size: 2em;
     font-weight: bold;
@@ -50,14 +60,17 @@ h4 {
     font-size: 0.5em;
 }
 
+/* list style */
 ul {
     list-style-type: none;
 }
 
+/* link style */
 a {
     text-decoration: none;
 }
 
+/* table style */
 table {
     text-align: center;
     width: 500px;
@@ -68,6 +81,7 @@ td,th{
     padding: 10px;
 }
 
+/* button style and simple hover animation */
 button {
     border: none;
     background-color: initial;
@@ -75,6 +89,7 @@ button {
     height: 50px;
 }
 
+/* button:hover defined the behaviour of button when the button is hovered by button */
 button:hover {
     /* background-color: var(--orange); */
     cursor: pointer;

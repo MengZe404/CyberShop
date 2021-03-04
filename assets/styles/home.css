@@ -1,3 +1,14 @@
+/* 
+
+This file defines properties for classes used in Navigation Bar and Home Page.
+
+Only classes are allowed to be defined in the file.
+
+Made by MengZe
+
+*/
+
+/* Navigation Bar container */
 .navbar {
     padding: 0;
     margin: 0;
@@ -7,6 +18,7 @@
     text-align: center;
 }
 
+/* Navigation Bar */
 .navbar-nav {
     padding: 0;
     margin: 0;
@@ -19,6 +31,7 @@
     margin: -3px 0px; /* grid trick, has to match box margin */
 }
 
+/* Navigation Item */
 .navbar-item {
     padding: 10px;
     box-sizing: border-box;
@@ -26,10 +39,12 @@
     flex-basis: 0;
 }
 
+/* When an item is being selected a special property should be applied */
 .focused {
     font-weight: bold;
 }
 
+/* a simple search box (idea from Google home page) */
 .search-box {
     display: flex;
     flex-direction: row;
@@ -41,10 +56,12 @@
     padding: 10px;
 }
 
+/* simple animation when the search hover is hoved by cursor */
 .search-box:hover {
     box-shadow: 1px 1px 4px #888888;
 }
 
+/* input field for search box */
 .search {
     width: 45vw;
     height: 22px;
@@ -53,13 +70,13 @@
     border: 1px solid orange;
 }
 
-
 .search-logo {
     width: 25px;
     padding-left: 15px;
     padding-right: 5px;
 }
 
+/* styles for icons (such as home.svg and cart.svg) */
 .icon {
     width: 25px;
     padding-left: 15px;
