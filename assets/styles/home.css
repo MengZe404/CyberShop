@@ -42,6 +42,22 @@ Made by MengZe
     flex-basis: 0;
 }
 
+.navbar-subitem {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.navbar-link {
+    color: var(--link);
+}
+
+.navbar-link:hover {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
 /* When an item is being selected a special property should be applied */
 .focused {
     font-weight: bold;
