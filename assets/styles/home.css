@@ -10,13 +10,10 @@ Made by MengZe
 
 /* Navigation Bar container */
 .navbar {
-    position: fixed;
     width: 100%;
     top: 0;
     padding: 0;
     margin: 0;
-    z-index: 20;
-    /* background-color: rgb(226, 226, 226); */
     background-color: var(--yellow);
     text-align: center;
 }
@@ -34,6 +31,19 @@ Made by MengZe
     margin: -3px 0px; /* grid trick, has to match box margin */
 }
 
+.navbar-subnav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin: -3px 0px; /* grid trick, has to match box margin */
+    background-color:  var(--teal);
+}
+
 /* Navigation Item */
 .navbar-item {
     padding: 10px;
@@ -43,18 +53,17 @@ Made by MengZe
 }
 
 .navbar-subitem {
-    padding: 10px;
+    padding: 3px;
     box-sizing: border-box;
     flex-grow: 1;
     flex-basis: 0;
 }
 
 .navbar-link {
-    color: var(--link);
+    color: var(--dark);
 }
 
 .navbar-link:hover {
-    color: var(--dark);
     text-decoration: underline;
 }
 
@@ -100,4 +109,76 @@ Made by MengZe
     width: 25px;
     padding-left: 15px;
     padding-right: 5px;
+}
+
+/* button style and simple hover animation */
+.navbar-button {
+    border: none;
+    background-color: initial;
+    width: 180px;
+    height: 50px;
+}
+
+/* button:hover defined the behaviour of button when the button is hovered by button */
+.navbar-button:hover {
+    cursor: pointer;
+    border: black solid 0.2px;
+    border-radius: 30px;
+}
+
+/* Home page styles */
+.ads-container {
+    position: absolute;
+}
+
+.ads-button-left {
+    position: absolute;
+    top: 90px;
+    left: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.ads-button-right {
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.ads-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.category-container {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 210px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    z-index: 100    ;
+    background-color: white;
+}
+
+.category-item-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px
+}
+
+.category-item-image {
+    padding: 10px;
+    width: 280px;
+    height: 280px;
 }

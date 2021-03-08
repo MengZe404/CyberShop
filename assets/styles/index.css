@@ -37,6 +37,11 @@ Made by MengZe
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --bgcolor: #e9e9e9
+}
+
+body {
+    background-color: var(--bgcolor);
 }
 
 /* headings */
@@ -82,19 +87,4 @@ td,th{
     padding: 10px;
 }
 
-/* button style and simple hover animation */
-button {
-    border: none;
-    background-color: initial;
-    width: 180px;
-    height: 50px;
-}
-
-/* button:hover defined the behaviour of button when the button is hovered by button */
-button:hover {
-    /* background-color: var(--orange); */
-    cursor: pointer;
-    border: black solid 0.2px;
-    border-radius: 30px;
-}
 
