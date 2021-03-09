@@ -88,12 +88,3 @@ td,th{
     padding: 10px;
 }
 
-.site-footer {
-    background-color: var(--dark);
-    width: 100%;
-}
-
-.site-footer * {
-    padding: 10px;
-    color: var(--white);
-}

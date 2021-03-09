@@ -182,3 +182,36 @@ Made by MengZe
     width: 280px;
     height: 280px;
 }
+
+.site-footer {
+    margin-top: 90%;
+    background-color: var(--dark);
+    width: 100%;
+    z-index: 1000;
+}
+
+.site-footer * {
+    padding: 10px;
+    color: var(--white);
+}
+
+.back-to-top {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 3px;
+    margin: 0;
+    border: none;
+    background-color: var(--gray);
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.footer-item-container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
