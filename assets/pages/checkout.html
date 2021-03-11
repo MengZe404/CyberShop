@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-COMMERCE WEBSITE Home Page</title>
+  <!-- CSS links -->
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/checkout.css">
+  <!-- Font awwsome  -->
+  <script src="https://kit.fontawesome.com/666a4f09b0.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <nav class="navbar"  id="navbar">
+  <nav class="navbar" id="navbar">
     <ul class="navbar-nav">
       <li class="navbar-item">
         <a href="../../index.html">
           <button class="navbar-button">
-              <ul class="navbar-nav">
-                <li style="padding: 10px;"> <embed src="../images/home.svg" class="icon"> </li>
-                <li style="padding: 10px;" alt="Home"> Home  </li>
-              </ul>
+            <ul class="navbar-nav">
+              <li style="padding: 10px;"> <embed src="../images/home.svg" class="icon"> </li>
+              <li style="padding: 10px;" alt="Home"> Home </li>
+            </ul>
           </button>
         </a>
       </li>
       <li class="navbar-item">
         <div class="search-box">
           <input class="search" alt="search" onkeydown="keyup(event)" value="iPhone">
-          <svg onclick="window.location.href='../pages/search_result.html'" cursor="pointer" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="search-logo"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+          <svg onclick="window.location.href='../pages/search_result.html'" cursor="pointer" focusable="false"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="search-logo">
+            <path
+              d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+            </path>
+          </svg>
         </div>
       </li>
       <li class="navbar-item">
@@ -43,18 +55,141 @@
         <a href="" class="navbar-link"> Global Store </a>
       </li>
       <li class="navbar-subitem">
-        <a  href="" class="navbar-link"> Local Store </a>
+        <a href="" class="navbar-link"> Local Store </a>
       </li>
       <li class="navbar-subitem">
-        <a  href="" class="navbar-link"> Deal of the day </a>
+        <a href="" class="navbar-link"> Deal of the day </a>
       </li>
       <li class="navbar-subitem">
-        <a  href="" class="navbar-link"> Customer Service </a>
+        <a href="" class="navbar-link"> Customer Service </a>
       </li>
     </ul>
   </nav>
+  <div class="checkout-page">
+    <h1 class="checkout-heading"> Checkout <embed src="../images/cart.svg" type=""></h1>
+    <div class="checkout-container">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" class="product">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="item">
+                <div class="item-image">
+                  <img src="../images/iphone.jpg" alt="">
+                </div>
+                <div class="item-desc">
+                  <p>iPhone X, 64GB, Silver</p>
+                </div>
+              </div>
+            </td>
 
-  <h1> Checkout </h1>
+            <td class="item-price">
+              $310
+            </td>
+
+            <td class="item-quantity">
+              <div class="quantity">
+                <input type="text" min="0" value="2">
+                <button class="quantity-button"> <i class="fas fa-plus fa-xs"></i> </button>
+                <button class="quantity-button"> <i class="fas fa-minus fa-xs"></i> </button>
+              </div>
+    </div>
+    </td>
+    <td>
+      <div class="item-total">
+        $620
+      </div>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="item">
+          <div class="item-image">
+            <img src="../images/sony.jpg" alt="">
+          </div>
+
+          <div class="item-desc">
+            <p>Sony WH-1000XM4 Wireles Noise Canceling </p>
+          </div>
+        </div>
+      </td>
+
+      <td class="item-price">
+        $365
+      </td>
+      <td class="item-quantity">
+        <div class="quantity">
+          <input type="text" min="0" value="1">
+          <button class="quantity-button"> <i class="fas fa-plus fa-xs"></i> </button>
+          <button class="quantity-button"> <i class="fas fa-minus fa-xs"></i></button>
+        </div>
+      </td>
+      <td>
+        <div class="item-total">
+          $365
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="item">
+          <div class="item-image">
+            <img src="../images/laptop.jpg" alt="" id="img-3">
+          </div>
+          <div class="item-desc">
+            <p>Lenovo Legion 5 Gaming Laptop</p>
+          </div>
+        </div>
+      </td>
+      <td class="item-price">
+        $999.99
+      </td>
+      <td class="item-quantity">
+        <div class="quantity">
+          <input type="text" min="0" value="1">
+          <button class="quantity-button"> <i class="fas fa-plus fa-xs"></i> </button>
+          <button class="quantity-button"> <i class="fas fa-minus fa-xs"></i> </button>
+        </div>
+      </td>
+      <td>
+        <div class="item-total">
+          $999.99
+        </div>
+      </td>
+
+    <tr class="last-row">
+      <td colspan="5">
+        <a class="checkout-button" id="btn-1" href="../../index.html">Continue Shopping</a>
+        <a class="checkout-button" id="btn-2" href="./checkout.html">Clear Cart</a>
+      </td>
+    </tr>
+
+    </tbody>
+    </table>
+  </div>
+  <div class="total">
+    <div class="total-desc">
+      <span class="total-title">
+        Total
+      </span>
+
+      <span class="total-price">
+        $1984.99
+      </span>
+      <div class="total-button">
+        <a class="checkout-button" id="btn-3" href="">Proceed to Payment</a>
+      </div>
+
+    </div>
+  </div>
+
 
   <div>
     <footer class="site-footer">
@@ -76,6 +211,8 @@
       </ul>
     </footer>
   </div>
+
 </body>
 <script src="../scripts/search.js"></script>
+
 </html>
