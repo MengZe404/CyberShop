@@ -1,0 +1,79 @@
+.search-result{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+
+.item-container{
+    border-style: solid;
+    border-color:rgba(153, 119, 138,0.15);
+    border-radius: 18px;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 7px;
+    border-width: 2px;
+}
+
+.item-container:hover{
+    border-color:rgba(236, 10, 10, 0.8);
+
+}
+.item-description{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    background-color:var(--yellow);
+   font-size: 20px;
+}
+.item-image {
+
+    width:400px ;
+    height:420px ;
+    
+}
+.item-price{
+    color: var(--danger);
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    background-color: white;
+   padding: 20px ;
+   font-size: 14px;
+}
+
+.item-availability{
+    text-align: center;
+    color: rgba(0, 170, 0);
+    
+    
+}
+.footer{
+    text-align: center;
+    justify-content:center ;
+
+}
+
+.Copyrights{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item-unavailable{
+    color: rgb(248, 16, 16);
+}
+.search-logo2{
+    width: 25px;
+    height: 25px;
+    
+
+}
