@@ -1,4 +1,4 @@
-.search-result{
+.search-result {
     background-color: white;
     text-align: center;
     display: flex;
@@ -10,9 +10,9 @@
 }
 
 
-.item-container{
+.item-container {
     border-style: solid;
-    border-color:rgba(153, 119, 138,0.15);
+    border-color: rgba(153, 119, 138, 0.15);
     border-radius: 18px;
     margin-left: 80px;
     margin-top: 10px;
@@ -20,60 +20,65 @@
     border-width: 2px;
 }
 
-.item-container:hover{
-    border-color:rgba(236, 10, 10, 0.8);
+.item-container:hover {
+    border-color: rgba(236, 10, 10, 0.8);
 
 }
-.item-description{
+
+.item-description {
     display: flex;
     margin: 20px;
     justify-content: center;
-    background-color:var(--yellow);
-   font-size: 20px;
+    background-color: var(--yellow);
+    font-size: 20px;
 }
+
 .item-image {
 
-    width:400px ;
-    height:420px ;
-    
+    width: 400px;
+    height: 420px;
+
 }
-.item-price{
+
+.item-price {
     color: var(--danger);
     text-align: left;
     display: flex;
     justify-content: center;
 }
 
-.heading{
+.heading {
     background-color: white;
-   padding: 20px ;
-   font-size: 14px;
+    padding: 20px;
+    font-size: 14px;
 }
 
-.item-availability{
+.item-availability {
     text-align: center;
     color: rgba(0, 170, 0);
-    
-    
+
+
 }
-.footer{
+
+.footer {
     text-align: center;
-    justify-content:center ;
+    justify-content: center;
 
 }
 
-.Copyrights{
+.Copyrights {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
 }
 
-.item-unavailable{
+.item-unavailable {
     color: rgb(248, 16, 16);
 }
-.search-logo2{
+
+.search-logo2 {
     width: 25px;
     height: 25px;
-    
+
 
 }

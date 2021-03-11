@@ -28,7 +28,8 @@ Made by MengZe
     flex-wrap: wrap;
     /* justify-content: flex-start; */
     align-items: center;
-    margin: -3px 0px; /* grid trick, has to match box margin */
+    margin: -3px 0px;
+    /* grid trick, has to match box margin */
 }
 
 .navbar-subnav {
@@ -40,8 +41,9 @@ Made by MengZe
     flex-wrap: wrap;
     /* justify-content: flex-start; */
     align-items: center;
-    margin: -3px 0px; /* grid trick, has to match box margin */
-    background-color:  var(--teal);
+    margin: -3px 0px;
+    /* grid trick, has to match box margin */
+    background-color: var(--teal);
 }
 
 /* Navigation Item */
@@ -154,7 +156,7 @@ Made by MengZe
 
 .category-container {
     display: flex;
-    position: absolute;
+    position: relative;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
@@ -167,7 +169,7 @@ Made by MengZe
     flex-direction: column;
     margin: 20px;
     padding: 10px;
-    z-index: 100    ;
+    z-index: 100;
     background-color: white;
 }
 
@@ -184,7 +186,8 @@ Made by MengZe
 }
 
 .site-footer {
-    margin-top: 90%;
+    position: absolute;
+    margin-top: auto;
     background-color: var(--dark);
     width: 100%;
     z-index: 1000;
