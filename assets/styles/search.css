@@ -7,6 +7,7 @@
     margin: 0;
     flex: auto;
     flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
 
@@ -18,11 +19,11 @@
     margin-top: 10px;
     padding: 7px;
     border-width: 2px;
+    width: 300px;
 }
 
 .item-container:hover {
-    border-color: rgba(236, 10, 10, 0.8);
-
+    border-color: grey;
 }
 
 .item-description {
@@ -34,10 +35,7 @@
 }
 
 .item-image {
-
-    width: 400px;
-    height: 420px;
-
+    width: 160px;
 }
 
 .item-price {
@@ -49,22 +47,16 @@
 
 .heading {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 0px;
     font-size: 14px;
 }
 
 .item-availability {
     text-align: center;
     color: rgba(0, 170, 0);
-
-
 }
 
-.footer {
-    text-align: center;
-    justify-content: center;
-
-}
 
 .Copyrights {
     text-align: center;
@@ -79,6 +71,4 @@
 .search-logo2 {
     width: 25px;
     height: 25px;
-
-
 }
