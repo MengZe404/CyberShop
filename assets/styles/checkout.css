@@ -112,8 +112,6 @@ th {
 }
 
 .total {
-  text-align: center;
-  margin-top: 70px;
   box-sizing: border-box;
 }
 
@@ -134,7 +132,7 @@ th {
 }
 
 .total-button {
-  margin: 20px;
+  margin-top: 20px;
 }
 
 #btn-3 {
