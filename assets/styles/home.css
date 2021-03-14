@@ -185,6 +185,33 @@ Made by MengZe
     height: 280px;
 }
 
+.discover-container {
+    padding: 50px;
+}
+
+.discover-header-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.discover-header {
+    padding-right: 30px;
+}
+
+.discover-item-container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-item {
+    width: 180px;
+}
+
 .site-footer {
     position: absolute;
     margin-top: auto;
@@ -218,3 +245,4 @@ Made by MengZe
     align-self: center;
     justify-content: center;
 }
+
