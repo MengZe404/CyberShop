@@ -2,6 +2,12 @@
     max-width: 1500px;
 }
 
+.subheading {
+    font-size: 18px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
 .row {
     display: flex;
     align-items: center;

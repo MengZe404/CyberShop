@@ -75,8 +75,8 @@ Made by MengZe
 }
 
 .logo {
-    width: 100px;
-    height: 40px;
+    width: 170px;
+    height: 65px;
 }
 
 /* a simple search box (idea from Google home page) */
@@ -160,15 +160,18 @@ Made by MengZe
     max-height: 100%;
 }
 
+.category {
+    position: relative;
+    padding-top: 210px;
+    background-color: #e9e9e9;
+}
+
 .category-container {
     display: flex;
-    position: relative;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-top: 210px;
-    background-color: #e9e9e9;
 }
 
 .category-item {
@@ -219,6 +222,11 @@ Made by MengZe
     width: 180px;
 }
 
+.discover-more {
+    text-align: center;
+}
+
+/* Footer */
 .site-footer {
     position: absolute;
     margin-top: auto;
