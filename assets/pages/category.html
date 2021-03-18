@@ -5,19 +5,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> ShopWithMe - Category </title>
+  <title>E-COMMERCE WEBSITE Home Page</title>
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/home.css">
+  <link rel="stylesheet" href="../styles/category.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon"/>
 </head>
 
 <body>
-  <nav class="navbar" id="navbar">
+  <nav class="navbar">
+    <nav class="navbar" id="navbar"></nav>
     <ul class="navbar-nav">
+      <li class="navbar-item">
+        <img src="../images/logo.png" class="logo">
+      </li>
       <li class="navbar-item">
         <a href="../../index.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/home.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/home.svg" class="icon"> </li>
               <li style="padding: 10px;" alt="Home"> Home </li>
             </ul>
           </button>
@@ -38,8 +45,18 @@
         <a href="checkout.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/cart.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/cart.svg" class="icon"> </li>
               <li style="padding: 10px;"> Checkout </li>
+            </ul>
+          </button>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="account.html">
+          <button class="navbar-button">
+            <ul class="navbar-nav">
+              <li style="padding: 10px;"> <embed src="../images/icons/user.svg" class="icon"> </li>
+              <li style="padding: 4px;"> My Account </li>
             </ul>
           </button>
         </a>
@@ -61,8 +78,112 @@
     </ul>
   </nav>
 
-  <h1> Category </h1>
+  <div class="header">
+    <div class="container">
+      <div class="row row-1">
+          <h1> Categories </h1>
+      </div>
+    </div>
+  </div>
+  <div class="small-container">
+    <div class=" row row-2">
+      <h2>Shop by Category</h2>
+      <select>
+        <option> default sorting</option>
+        <option> sort by price </option>
+        <option> sort by populaity </option>
+        <option> sort by rating </option>
+        <option> sort by sale</option>
+      </select>
+    </div>
+  </div>
 
+  <div class="big-container">
+    <div class="row row-3">
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-el.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Electronics </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-co.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Computers </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-so.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Softwere </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-ga.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Videogames </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-bo.webp" alt=""></a>
+        <h4><a href="" class="ct-link"> Books </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-mu.jpg" alt=""> </a>
+        <h4><a href="" class="ct-link"> Music </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-ca.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> cameras & photography </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-tv.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Tv, Video & Audio </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-fa.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Fashion </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-sc.jpeg" alt=""></a>
+        <h4><a href="" class="ct-link"> Beauty & Personal Care </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-ho.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Home & Kitchen </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-se.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> security </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-wa.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> watches </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-toy.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Toys </a></h4>
+        <p>see more</p>
+      </div>
+      <div class="col4">
+        <a href=""><img src="../images/category-assets/ct-to.jpg" alt=""></a>
+        <h4><a href="" class="ct-link"> Tools </a></h4>
+        <p>see more</p>
+      </div>
+    </div>
+  </div>
+  <div class="page-btn">
+    <span class="page-btn-selected">1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span> &#8594; </span>
+  </div>
   <div>
     <footer class="site-footer">
       <a href="#navbar">

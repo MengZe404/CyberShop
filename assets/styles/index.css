@@ -46,7 +46,8 @@ h1 {
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 6vh;
+    padding: 15px;
 }
 
 h2 {
@@ -83,4 +84,26 @@ td,
 th {
     border-radius: 10px;
     padding: 10px;
+}
+
+.page-btn {
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid darkslategray;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.page-btn span:hover,.page-btn-selected  {
+    background: #fca606;
+    color: #fff;
 }

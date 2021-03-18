@@ -10,19 +10,23 @@
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/home.css">
   <link rel="stylesheet" href="../styles/checkout.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon"/>
   <!-- Font awwsome  -->
   <script src="https://kit.fontawesome.com/666a4f09b0.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
   <nav class="navbar" id="navbar">
     <ul class="navbar-nav">
       <li class="navbar-item">
+        <img src="../images/logo.png" class="logo">
+      </li>
+      <li class="navbar-item">
         <a href="../../index.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/home.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/home.svg" class="icon"> </li>
               <li style="padding: 10px;" alt="Home"> Home </li>
             </ul>
           </button>
@@ -43,8 +47,18 @@
         <a>
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/cart.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/cart.svg" class="icon"> </li>
               <li style="padding: 10px;" class="focused"> Checkout </li>
+            </ul>
+          </button>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="account.html">
+          <button class="navbar-button">
+            <ul class="navbar-nav">
+              <li style="padding: 10px;"> <embed src="../images/icons/user.svg" class="icon"> </li>
+              <li style="padding: 4px;"> My Account </li>
             </ul>
           </button>
         </a>
@@ -66,7 +80,7 @@
     </ul>
   </nav>
   <div class="checkout-page">
-    <h1 class="checkout-heading"> Checkout <embed src="../images/cart.svg" type=""></h1>
+    <h1> Checkout</h1>
     <div class="checkout-container">
       <table>
         <thead>
@@ -82,7 +96,7 @@
             <td>
               <div class="item">
                 <div class="item-image">
-                  <img src="../images/iphone.jpg" alt="">
+                  <img src="../images/checkout-assets/iphone.jpg" alt="">
                 </div>
                 <div class="item-desc">
                   <p>iPhone X, 64GB, Silver</p>
@@ -111,7 +125,7 @@
             <td>
               <div class="item">
                 <div class="item-image">
-                  <img src="../images/sony.jpg" alt="">
+                  <img src="../images/checkout-assets/sony.jpg" alt="">
                 </div>
       
                 <div class="item-desc">
@@ -140,7 +154,7 @@
             <td>
               <div class="item">
                 <div class="item-image">
-                  <img src="../images/laptop.jpg" alt="" id="img-3">
+                  <img src="../images/checkout-assets/laptop.jpg" alt="" id="img-3">
                 </div>
                 <div class="item-desc">
                   <p>Lenovo Legion 5 Gaming Laptop</p>

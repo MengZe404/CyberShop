@@ -9,17 +9,21 @@
   <!-- Links to CSS files -->
   <link rel="stylesheet" href="./assets/styles/index.css">
   <link rel="stylesheet" href="./assets/styles/home.css">
-
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon"/>
 </head>
 
 <body>
   <nav class="navbar" id="navbar">
     <ul class="navbar-nav">
       <li class="navbar-item">
+        <img src="./assets/images/logo.png" class="logo">
+      </li>
+      <li class="navbar-item">
         <a>
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="./assets/images/home.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="./assets/images/icons/home.svg" class="icon"> </li>
               <li style="padding: 10px;" class="focused" alt="Home"> Home </li>
             </ul>
           </button>
@@ -40,8 +44,18 @@
         <a href="assets\pages\checkout.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="assets/images/cart.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="./assets/images/icons/cart.svg" class="icon"> </li>
               <li style="padding: 10px;"> Checkout </li>
+            </ul>
+          </button>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="assets\pages\account.html">
+          <button class="navbar-button">
+            <ul class="navbar-nav">
+              <li style="padding: 10px;"> <embed src="./assets/images/icons/user.svg" class="icon"> </li>
+              <li style="padding: 4px;"> My Account </li>
             </ul>
           </button>
         </a>
@@ -49,7 +63,7 @@
     </ul>
     <ul class="navbar-subnav">
       <li class="navbar-subitem">
-        <a href="" class="navbar-link"> Global Store </a>
+        <a href="./assets/pages/category.html" class="navbar-link"> Global Store </a>
       </li>
       <li class="navbar-subitem">
         <a href="" class="navbar-link"> Local Store </a>
@@ -64,8 +78,8 @@
   </nav>
 
   <div class="ads-container">
-    <img src="./assets/images/circle-left.svg" class="ads-button-left">
-    <img src="./assets/images/circle-right.svg" class="ads-button-right">
+    <img src="./assets/images/icons/circle-left.svg" class="ads-button-left">
+    <img src="./assets/images/icons/circle-right.svg" class="ads-button-right">
     <img src="./assets/images/home-assets/ad1.jpg" class="ads-image">
   </div>
 

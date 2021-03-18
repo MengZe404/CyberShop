@@ -74,12 +74,17 @@ Made by MengZe
     font-weight: bold;
 }
 
+.logo {
+    width: 100px;
+    height: 40px;
+}
+
 /* a simple search box (idea from Google home page) */
 .search-box {
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 45vw;
+    width: 35vw;
     height: 22px;
     /* border:solid 1px #ccc; */
     border-radius: 50px;
@@ -93,7 +98,7 @@ Made by MengZe
 
 /* input field for search box */
 .search {
-    width: 45vw;
+    width: 35vw;
     height: 22px;
     padding-left: 8px;
     font-size: 16px;

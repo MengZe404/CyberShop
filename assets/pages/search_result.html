@@ -5,20 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>  ShopWithMe - Search Result </title>
+  <title> ShopWithMe - Search Result </title>
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/home.css">
   <link rel="stylesheet" href="../styles/search.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon"/>
 </head>
 
 <body>
   <nav class="navbar" id="navbar">
     <ul class="navbar-nav">
       <li class="navbar-item">
+        <img src="../images/logo.png" class="logo">
+      </li>
+      <li class="navbar-item">
         <a href="../../index.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/home.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/home.svg" class="icon"> </li>
               <li style="padding: 10px;" alt="Home"> Home </li>
             </ul>
           </button>
@@ -39,8 +44,18 @@
         <a href="checkout.html">
           <button class="navbar-button">
             <ul class="navbar-nav">
-              <li style="padding: 10px;"> <embed src="../images/cart.svg" class="icon"> </li>
+              <li style="padding: 10px;"> <embed src="../images/icons/cart.svg" class="icon"> </li>
               <li style="padding: 10px;"> Checkout </li>
+            </ul>
+          </button>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="account.html">
+          <button class="navbar-button">
+            <ul class="navbar-nav">
+              <li style="padding: 10px;"> <embed src="../images/icons/user.svg" class="icon"> </li>
+              <li style="padding: 4px;"> My Account </li>
             </ul>
           </button>
         </a>
@@ -62,14 +77,9 @@
     </ul>
   </nav>
 
-  <div class="heading">
-    <h1> Search Result <svg cursor="pointer" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-        class="search-logo2">
-        <path
-          d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
-        </path>
-      </svg> </h1>
-    <h2> 1-18 results found for "iPhone"</h2>
+  <div>
+    <h1> Search Result </h1>
+    <h3 class="subheading"> 1-18 results found for "iPhone"</h2>
   </div>
   <div class="search-result">
     <div class="item-container">
@@ -127,65 +137,14 @@
       <h2 class="item-price">$310</h2>
       <h3 class="item-availability">In Stock</h3>
     </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphoneXS.png">
-      <h1 class="item-description">iPhoneXs (256GB, Black)</h1>
-      <h2 class="item-price">$589</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphoneXR.png">
-      <h1 class="item-description">iPhone XR(128gb, Blue)</h1>
-      <h2 class="item-price">$629</h2>
-      <h3 class="item-unavailable">Out of Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphonexs max.png">
-      <h1 class="item-description">iPhoneXs Max(256GB, Gold)</h1>
-      <h2 class="item-price">$689</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone11.png">
-      <h1 class="item-description">iphone11(128GB, Light Green)</h1>
-      <h2 class="item-price">$699</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone11 pro.png">
-      <h1 class="item-description">iPhone11 Pro(256GB, Green)</h1>
-      <h2 class="item-price">$749</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone11 pro max.png">
-      <h1 class="item-description">iPhone11 pro Max(512GB, Gold)</h1>
-      <h2 class="item-price">$829</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone12 mini.png">
-      <h1 class="item-description">iPhone12 mini(64GB, Black)</h1>
-      <h2 class="item-price">$699</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone12 pro.png">
-      <h1 class="item-description">iPhone 12pro(256GB, Blue)</h1>
-      <h2 class="item-price">$999</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-    <div class="item-container">
-      <img class="item-image" src="../images/iphones/iphone12 pro max.png">
-      <h1 class="item-description">iPhone 12 Pro Max (512GB, Gold) </h1>
-      <h2 class="item-price">$1099</h2>
-      <h3 class="item-availability">In Stock</h3>
-    </div>
-
-  </div>
   </div>
 
+  <div class="page-btn">
+    <span class="page-btn-selected">1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span> &#8594; </span>
   </div>
 
   <div>

@@ -3,10 +3,6 @@
   background-color: white;
 }
 
-.checkout-heading {
-  padding: 15px;
-}
-
 .checkout-container {
   display: flex;
   justify-content: center;
