@@ -39,11 +39,11 @@ Made by MengZe
     flex-direction: row;
     flex: auto;
     flex-wrap: wrap;
-    /* justify-content: flex-start; */
     align-items: center;
     margin: -3px 0px;
     /* grid trick, has to match box margin */
     background-color: var(--teal);
+    line-height: 1;
 }
 
 /* Navigation Item */
@@ -65,10 +65,6 @@ Made by MengZe
     color: var(--dark);
 }
 
-.navbar-link:hover {
-    text-decoration: underline;
-}
-
 /* When an item is being selected a special property should be applied */
 .focused {
     font-weight: bold;
@@ -84,11 +80,12 @@ Made by MengZe
     display: flex;
     flex-direction: row;
     margin: auto;
-    width: 35vw;
+    width: 45vw;
     height: 22px;
     /* border:solid 1px #ccc; */
     border-radius: 50px;
     padding: 10px;
+    padding-left: 15px;
 }
 
 /* simple animation when the search hover is hoved by cursor */
@@ -98,7 +95,7 @@ Made by MengZe
 
 /* input field for search box */
 .search {
-    width: 35vw;
+    width: 45vw;
     height: 22px;
     padding-left: 8px;
     font-size: 16px;
@@ -137,6 +134,7 @@ Made by MengZe
 .ads-container {
     position: absolute;
     z-index: 50;
+    margin-top: 3.5px;
 }
 
 .ads-button-left {
@@ -164,6 +162,7 @@ Made by MengZe
     position: relative;
     padding-top: 210px;
     background-color: #e9e9e9;
+    margin-top: 10px;
 }
 
 .category-container {
@@ -224,6 +223,7 @@ Made by MengZe
 
 .discover-more {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 /* Footer */

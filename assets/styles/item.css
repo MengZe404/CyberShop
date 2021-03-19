@@ -1,10 +1,3 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-}
-
 body{
     line-height: 1.5; /*line spacing between elements*/
 }
@@ -12,6 +5,7 @@ body{
 .item-container{
     max-width: 1100px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 /*Setting up item showcasing*/
 img{
@@ -31,11 +25,12 @@ img{
 }
 .img-select{
     display: flex;
+    margin-left: 100px;
 }
 .img-item{
     margin: 0.5rem;
-    width: 100%;
-    border: #5dbb63 solid 2px;
+    width: 50px;
+    border: 1px solid black;
 }
 .img-item:nth-child(1),
 .img-item:nth-child(2),
@@ -158,6 +153,7 @@ img{
 .purchase-info{
     margin: 1.5rem 0;
     display: inline-block;
+    float: right;
 }
 .purchase-info input,
 .purchase-info .btn{
@@ -170,32 +166,32 @@ img{
 }
 .purchase-info input{
     padding: 0.45rem 0.8rem;
-    width: 60px;
+    width: 40px;
 }
 .purchase-info .btn{
     padding: 0.45rem 0.8rem;
-    background: yellow;
     color: black;
     cursor: pointer;
+    background: var(--yellow);
 }
 .purchase-info .btn:hover{
-    background-color:aliceblue;
+    border: 1px solid black;
 }
 
 /*Pricings*/
 .product-price{
-    display: inline-block;
-    margin: 3rem 6rem;
+    margin-top: 2rem;
     font-weight: 700;
     padding-right: 1rem;
-    padding-left: 1rem;
-    float: right;
 }
 .product-price span{
     font-weight: 650;
     font-size: 25px;
 }
 
+.checkout-btn {
+    width: 150px;
+}
 /*Responsiveness*/
 @media screen and (min-width: 992px){
     .card{
