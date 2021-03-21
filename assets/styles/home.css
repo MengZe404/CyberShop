@@ -26,7 +26,6 @@ Made by MengZe
     flex-direction: row;
     flex: auto;
     flex-wrap: wrap;
-    /* justify-content: flex-start; */
     align-items: center;
     margin: -3px 0px;
     /* grid trick, has to match box margin */
@@ -71,7 +70,7 @@ Made by MengZe
 }
 
 .logo {
-    width: 170px;
+    width: 150px;
     height: 65px;
 }
 
@@ -134,7 +133,7 @@ Made by MengZe
 .ads-container {
     position: absolute;
     z-index: 50;
-    margin-top: 3.5px;
+    margin-top: 3.3px;
 }
 
 .ads-button-left {
@@ -215,10 +214,14 @@ Made by MengZe
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 .discover-item {
     width: 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .discover-more {
