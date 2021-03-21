@@ -194,8 +194,8 @@ Made by MengZe
 }
 
 .discover-container {
-    margin: 25px;
-    padding: 25px;
+    margin: 20px;
+    padding: 30px;
     background-color: white;
 }
 
@@ -229,22 +229,6 @@ Made by MengZe
 .discover-more {
     text-align: center;
     padding-bottom: 5px;
-}
-
-.discover-button-left {
-    position: absolute;
-    top: 90px;
-    left: 15px;
-    z-index: 10;
-    cursor: pointer;
-}
-
-.discover-button-right {
-    position: absolute;
-    top: 90px;
-    right: 15px;
-    z-index: 10;
-    cursor: pointer;
 }
 
 /* Footer */
