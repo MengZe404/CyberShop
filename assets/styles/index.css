@@ -73,6 +73,7 @@ ul {
 a {
     color: #277185;
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* table style */

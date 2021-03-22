@@ -72,12 +72,9 @@ select:focus {
     color: rgba(55, 161, 165, 0.795);
     cursor: pointer;
     width: 90px;
-    padding: 3px;
+    padding: 0px;
 }
 
 .col4 p:hover {
     color: orange;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 0.3px;
 }
