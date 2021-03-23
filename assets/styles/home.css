@@ -1,6 +1,6 @@
 /* 
 
-This file defines properties for classes used in Navigation Bar and Home Page.
+This file defines properties for classes used in Home Page.
 
 Only classes are allowed to be defined in the file.
 
@@ -8,128 +8,6 @@ Made by MengZe
 
 */
 
-/* Navigation Bar container */
-.navbar {
-    width: 100%;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    background-color: var(--yellow);
-    text-align: center;
-}
-
-/* Navigation Bar */
-.navbar-nav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: -3px 0px;
-    /* grid trick, has to match box margin */
-}
-
-.navbar-subnav {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: -3px 0px;
-    /* grid trick, has to match box margin */
-    background-color: var(--teal);
-    line-height: 1;
-}
-
-/* Navigation Item */
-.navbar-item {
-    padding: 10px;
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.navbar-subitem {
-    padding: 3px;
-    box-sizing: border-box;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.navbar-link {
-    color: var(--dark);
-}
-
-/* When an item is being selected a special property should be applied */
-.focused {
-    font-weight: bold;
-}
-
-.logo {
-    width: 150px;
-    height: 65px;
-}
-
-/* a simple search box (idea from Google home page) */
-.search-box {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 45vw;
-    height: 22px;
-    /* border:solid 1px #ccc; */
-    border-radius: 50px;
-    padding: 10px;
-    padding-left: 15px;
-}
-
-/* simple animation when the search hover is hoved by cursor */
-.search-box:hover {
-    box-shadow: 1px 1px 4px #888888;
-}
-
-/* input field for search box */
-.search {
-    width: 45vw;
-    height: 22px;
-    padding-left: 8px;
-    font-size: 16px;
-    border: 1px solid orange;
-}
-
-.search-logo {
-    width: 25px;
-    padding-left: 15px;
-    padding-right: 5px;
-}
-
-/* styles for icons (such as home.svg and cart.svg) */
-.icon {
-    width: 25px;
-    padding-left: 15px;
-    padding-right: 5px;
-}
-
-/* button style and simple hover animation */
-.navbar-button {
-    border: none;
-    background-color: initial;
-    width: 180px;
-    height: 50px;
-}
-
-/* button:hover defined the behaviour of button when the button is hovered by button */
-.navbar-button:hover {
-    cursor: pointer;
-    border: black solid 0.2px;
-    border-radius: 30px;
-}
-
-/* Home page styles */
 .ads-container {
     position: absolute;
     z-index: 50;
@@ -230,39 +108,3 @@ Made by MengZe
     text-align: center;
     padding-bottom: 5px;
 }
-
-/* Footer */
-.site-footer {
-    position: absolute;
-    margin-top: auto;
-    background-color: var(--dark);
-    width: 100%;
-    z-index: 1000;
-}
-
-.site-footer * {
-    padding: 10px;
-    color: var(--white);
-}
-
-.back-to-top {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 3px;
-    margin: 0;
-    border: none;
-    background-color: var(--gray);
-    cursor: pointer;
-}
-
-.back-to-top:hover {
-    background-color: rgb(165, 165, 165);
-}
-
-.footer-item-container {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
