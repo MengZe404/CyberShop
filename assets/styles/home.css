@@ -57,6 +57,7 @@ Made by MengZe
     padding: 10px;
     z-index: 100;
     background-color: white;
+    cursor: pointer;
 }
 
 .category-item-header {
@@ -69,6 +70,14 @@ Made by MengZe
     padding: 10px;
     width: 280px;
     height: 280px;
+}
+
+.category-link {
+    padding: 10px;
+}
+
+.category-link:hover {
+    color: orange;
 }
 
 .discover-container {
